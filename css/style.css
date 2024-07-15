@@ -199,8 +199,16 @@ text-align: center;
 .pool-section {
   margin-top: 50px;
 }
-.pool-section p {
+.content-section p {
   font-size: 1.1em;
+}
+/*gallery Section*/
+.gallery-section {
+  margin-top: 50px;
+}
+.gallery-section img {
+  width: 100%;
+  height: auto;
 }
 
 /*contact*/
