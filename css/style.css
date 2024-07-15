@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #f1fbff;
+}
+.section-padding {
+  padding: 100px 0;
+}
+/*carousal*/
+.carousel-item {
+  height: 600px; /* Adjust the height as needed */
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  text-align:center;
+  padding: 100px;
+}
+
+/*navbar*/
+.navbar .getstarted {
+  background: #106eea;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  line-height: 2.3;
+}
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+.portfolio .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+  font-size: 50px;
+}
+.team .card-body i {
+  font-size: 20px;
+}
+/*about*/
+.about-section {
+  padding: 100px 0;
+}
+.about-section .content {
+  text-align: left;
+}
+.about-section img {
+  width: 100%; /* This makes the image responsive */
+  max-width: 600px; /* Set maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px;
+}
+
+
+/*card*/
+.card-img-top {
+  width: 100%;
+  height: 400px; /* Fixed height */
+  object-fit: cover;
+}
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+/*quote image*/
+.quoteimage-item {
+  height: 100vh; /* Fullscreen height */
+  min-height: 400px;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+padding: 10px; /* Optional: Adds padding around the text */
+}
+
+/*section*/
+.h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
+
+.room-description, .sofa-set {
+  margin-bottom: 20px;
+}
+
+.room-description p, .sofa-set p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
+}
+
+.room-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.room-images img {
+  width: 48%;
+  border-radius: 5px;
+}
+
+
+
+
+.sofa-set h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.sofa-set p {
+  color: #666;
+}
+
+/*img Gallery*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.gallery img {
+  width: calc(33.333% - 10px);
+  height: auto;
+  border-radius: 5px;
+}
+
+/*image section heritage*/
+.heritage{
+text-align: center;
+}
+/*
+.quote {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.frame,
+.frame * {
+  box-sizing: border-box;
+}
+.frame {
+  height: 756px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-1 {
+  background: var(--043c53, #014762);
+  width: 754px;
+  height: 755px;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  overflow: hidden;
+}
+.para {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 300;
+  position: absolute;
+  right: 17px;
+  top: 107px;
+  width: 637px;
+}
+.button {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--bda078, #bda078);
+  border-width: 1px;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  position: absolute;
+  right: 435px;
+  top: 500px;
+}
+.book-now {
+  color: var(--ffffff, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.vector {
+  opacity: 0.15000000596046448;
+  width: 1328.59px;
+  height: 1328.59px;
+  position: absolute;
+  right: -358.19px;
+  top: 552.19px;
+  transform: translate(214.9px, -299.03px);
+  overflow: visible;
+}
+.frame-818 {
+  background: #bda078;
+  width: 56px;
+  height: 755px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+.frame-837 {
+  background: #d6d6d6;
+  width: 1166px;
+  height: 755px;
+  position: absolute;
+  left: 754px;
+  top: 0px;
+  overflow: hidden;
+}
+.sasha-kaunas-x-ea-aoiz-nfv-8-unsplash {
+  width: 1166px;
+  height: 934px;
+  position: absolute;
+  left: 0px;
+  top: -166px;
+  object-fit: cover;
+}
+.arangala-forest-lodge {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AllertaStencil-Regular", sans-serif;
+  font-size: 96px;
+  font-weight: 400;
+  position: absolute;
+  left: 61px;
+  bottom: 75px;
+}
+*/
+
