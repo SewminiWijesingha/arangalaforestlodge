@@ -194,113 +194,20 @@ padding: 10px; /* Optional: Adds padding around the text */
 .heritage{
 text-align: center;
 }
-/*
-.quote {
-  font-size: 50px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
+
+/*natural pool*/
+.pool-section {
+  margin-top: 50px;
+}
+.pool-section p {
+  font-size: 1.1em;
 }
 
-.frame,
-.frame * {
-  box-sizing: border-box;
+/*contact*/
+.contact-section {
+  margin-top: 50px;
 }
-.frame {
-  height: 756px;
-  position: relative;
-  overflow: hidden;
+.contact-section h1 {
+  color: #666633;
 }
-.frame-1 {
-  background: var(--043c53, #014762);
-  width: 754px;
-  height: 755px;
-  position: absolute;
-  left: 0px;
-  top: -1px;
-  overflow: hidden;
-}
-.para {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Poppins-Light", sans-serif;
-  font-size: 20px;
-  line-height: 34px;
-  font-weight: 300;
-  position: absolute;
-  right: 17px;
-  top: 107px;
-  width: 637px;
-}
-.button {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: var(--bda078, #bda078);
-  border-width: 1px;
-  padding: 16px 32px 16px 32px;
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  width: 219px;
-  position: absolute;
-  right: 435px;
-  top: 500px;
-}
-.book-now {
-  color: var(--ffffff, #ffffff);
-  text-align: left;
-  font-family: "Poppins-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: relative;
-}
-.vector {
-  opacity: 0.15000000596046448;
-  width: 1328.59px;
-  height: 1328.59px;
-  position: absolute;
-  right: -358.19px;
-  top: 552.19px;
-  transform: translate(214.9px, -299.03px);
-  overflow: visible;
-}
-.frame-818 {
-  background: #bda078;
-  width: 56px;
-  height: 755px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  overflow: hidden;
-}
-.frame-837 {
-  background: #d6d6d6;
-  width: 1166px;
-  height: 755px;
-  position: absolute;
-  left: 754px;
-  top: 0px;
-  overflow: hidden;
-}
-.sasha-kaunas-x-ea-aoiz-nfv-8-unsplash {
-  width: 1166px;
-  height: 934px;
-  position: absolute;
-  left: 0px;
-  top: -166px;
-  object-fit: cover;
-}
-.arangala-forest-lodge {
-  color: #ffffff;
-  text-align: left;
-  font-family: "AllertaStencil-Regular", sans-serif;
-  font-size: 96px;
-  font-weight: 400;
-  position: absolute;
-  left: 61px;
-  bottom: 75px;
-}
-*/
 
